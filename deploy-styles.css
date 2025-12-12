@@ -1,0 +1,37 @@
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+.animate-bounce-1 { animation: bounce 1s infinite 0ms; }
+.animate-bounce-2 { animation: bounce 1s infinite 150ms; }
+.animate-bounce-3 { animation: bounce 1s infinite 300ms; }
+
+.markdown-content h1 { font-size: 1.875rem; font-weight: bold; margin-top: 1.5rem; margin-bottom: 1rem; }
+.markdown-content h2 { font-size: 1.5rem; font-weight: bold; margin-top: 1.25rem; margin-bottom: 0.75rem; }
+.markdown-content h3 { font-size: 1.25rem; font-weight: bold; margin-top: 1rem; margin-bottom: 0.5rem; }
+.markdown-content p { margin-bottom: 1rem; }
+.markdown-content strong { font-weight: bold; }
+.markdown-content em { font-style: italic; }
+.markdown-content code { 
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 0.125rem 0.375rem; 
+    border-radius: 0.25rem; 
+    font-family: 'Courier New', monospace;
+    font-size: 0.875rem;
+}
+.markdown-content pre { 
+    background-color: rgba(0, 0, 0, 0.4); 
+    padding: 1rem; 
+    border-radius: 0.5rem; 
+    overflow-x: auto; 
+    margin-bottom: 1rem;
+}
+.markdown-content pre code { background-color: transparent; padding: 0; }
+.markdown-content ul { list-style-type: disc; margin-left: 1.5rem; margin-bottom: 1rem; }
+.markdown-content ol { list-style-type: decimal; margin-left: 1.5rem; margin-bottom: 1rem; }
+.markdown-content li { margin-bottom: 0.5rem; }
+.markdown-content a { color: #60a5fa; text-decoration: underline; }
+
+.custom-scrollbar::-webkit-scrollbar { width: 8px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.2); }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); border-radius: 4px; }
